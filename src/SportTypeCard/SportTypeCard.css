@@ -1,0 +1,38 @@
+.card-menu{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+}
+.card-top-section{
+    width: 33%;
+    margin-top: 30px;
+    overflow: hidden;
+    box-shadow: 0 0 20px #f6f2f248
+}
+img{
+    object-fit: cover;
+    display: block;
+}
+.card-name{
+    margin: 3px auto;
+    text-align: center;
+    color: white;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+@media screen and (max-width:800px){
+    .card-menu{
+        flex-direction: column;
+        width: 100%;
+    }
+    .card-top-section{
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+}
